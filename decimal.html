@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body> 
+    <div class="calculator">
+         <div class="row">
+            <a href="back.html" class="back">🔙</a>
+           <a href="binary.html" class="converter">Binary</a>
+            <a href="decimal.html" class="converter" style="color:rgb(245, 141, 6);">Decimal</a>
+             <a href="octal.html" class="converter">Octal</a>
+              <a href="hexa.html" class="converter">Hexa</a>
+          
+          
+        </div>
+        <div class="display">
+            <input type="text" id="inputBox" value="0" placeholder="0" disabled>
+        </div>
+        
+        <div class="row">
+            <button type="button" class="opr" id="AC">AC</button>
+            <button type="button" class="opr" id="DEL">DEL</button>
+            <button type="button" id="%">%</button>
+            <button type="button" class="opr">Bin</button>
+            <button type="button"class="letter">A</button>
+        </div>
+        <div class="row">
+            <button type="button" >7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button" class="opr" style="color:rgb(255, 145, 0);">Deci</button>
+            <button type="button"class="letter">B</button>
+           
+        </div>
+        <div class="row">
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button" class="opr">Octal</button>
+            <button type="button"class="letter">C</button>
+        </div>
+        <div class="row">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" class="opr">Hexa</button>
+            <button type="button"class="letter">D</button>
+        </div>
+        <div class="row">
+            <button type="button">00</button>
+            <button type="button">0</button>
+            <button type="button" class="red">.</button>
+            <button type="button" class="letter">F</button>       
+<button type="button"class="letter">E</button>
+  
+    </div>  
+      </div> 
+    <script src="javascript/decimal.js"></script>
+</body>
+</html>
